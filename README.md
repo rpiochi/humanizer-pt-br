@@ -8,7 +8,7 @@ Uma skill para Claude Code que remove sinais de escrita gerada por IA, deixando 
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/blader/humanizer.git ~/.claude/skills/humanizer
+git clone https://github.com/rpiochi/humanizer-pt-br.git ~/.claude/skills/humanizer
 ```
 
 ### Instalação manual (somente o arquivo da skill)
@@ -16,8 +16,8 @@ git clone https://github.com/blader/humanizer.git ~/.claude/skills/humanizer
 Se você já clonou este repositório (ou baixou o `SKILL.md`), copie o arquivo para a pasta de skills do Claude Code:
 
 ```bash
-mkdir -p ~/.claude/skills/humanizer
-cp SKILL.md ~/.claude/skills/humanizer/
+mkdir -p ~/.claude/skills/humanizer-pt-br
+cp SKILL.md ~/.claude/skills/humanizer-pt-br/
 ```
 
 ## Uso
@@ -25,7 +25,7 @@ cp SKILL.md ~/.claude/skills/humanizer/
 No Claude Code, invoque a skill:
 
 ```
-/humanizer
+/humanizer-pt-br
 
 [cole seu texto aqui]
 ```
@@ -125,12 +125,7 @@ Todos os exemplos usam contextos brasileiros (IBGE, Chapada Diamantina, Embrapa,
 
 ## Histórico de versão
 
-- **2.3.0** — Incorpora 3 padrões adicionais de PT-BR e consolida compatibilidade com `humanizer`
-- **2.2.0** — Adaptação PT-BR com 3 padrões adicionais e exemplos brasileiros
-- **2.1.1** — Correção do exemplo do padrão #18 (aspas curvas vs retas)
-- **2.1.0** — Inclusão de exemplos antes/depois para os 24 padrões
-- **2.0.0** — Reescrita completa com base no conteúdo da Wikipedia
-- **1.0.0** — Versão inicial (inglês)
+- **1.0.0** — Versão inicial | Tradução da versão 2.1.0 original
 
 ## Licença
 
