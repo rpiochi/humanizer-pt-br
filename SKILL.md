@@ -202,11 +202,20 @@ Evitar padrões de IA é só metade do trabalho. Texto estéril e sem voz també
 
 **Problema:** Estruturas como "Não se trata apenas de... mas de...", "Mais do que um simples... é..." e "Vai além de... é..." aparecem em excesso.
 
+Uma variação muito comum (e com cara de IA) é o "Não é X. É Y." em duas frases curtas para soar como insight:
+- "Não é moda. É estrutura de consumo mudando."
+- "Não é sobre X. É sobre Y."
+- "Não é só X. É Y."
+
 **Antes:**
 > Não se trata apenas de uma atualização de software; é uma verdadeira revolução na forma como pensamos produtividade. Mais do que um produto, é uma filosofia de trabalho.
+>
+> Não é moda. É estrutura de consumo mudando.
 
 **Depois:**
 > A atualização trouxe processamento em lote, atalhos de teclado e modo offline.
+>
+> O consumo está mudando de forma estrutural.
 
 ---
 
